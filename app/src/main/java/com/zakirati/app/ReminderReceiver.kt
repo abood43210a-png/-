@@ -1,4 +1,4 @@
-package com.thakirati.app
+package com.zakirati.app
 
 import android.app.*
 import android.content.BroadcastReceiver
