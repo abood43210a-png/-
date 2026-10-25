@@ -1,4 +1,4 @@
-package com.thakirati.app
+package com.zakirati.app
 
 data class Note(
     var id: String,
