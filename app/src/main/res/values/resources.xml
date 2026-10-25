@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">Zakirati</string>
-    <style name="Theme.Zakirati" parent="android:Theme.Material.Light.NoActionBar">
-    </style>
-</resources>
