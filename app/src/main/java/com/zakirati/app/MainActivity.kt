@@ -81,7 +81,6 @@ class MainActivity : androidx.appcompat.app.AppCompatActivity() {
                 zip.close()
             }
             if (imported.isNotEmpty()) {
-                // Resolve bundled audio file names to app-private paths.
                 imported.forEach { n ->
                     if (n.audioPath.isNotBlank()) {
                         val f = File(NoteStore.audioDir(this), File(n.audioPath).name)
@@ -298,4 +297,3 @@ class MainActivity : androidx.appcompat.app.AppCompatActivity() {
         }
     }
 }
-
