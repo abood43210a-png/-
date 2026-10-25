@@ -6,6 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
+
   build:
     runs-on: ubuntu-latest
 
@@ -24,7 +25,7 @@ jobs:
       run: chmod +x gradlew || true
 
     - name: Build Debug APK
-     run: gradle wrapper && ./gradlew assembleDebug --stacktrace
+      run: gradle wrapper && ./gradlew assembleDebug --stacktrace
 
     - name: Upload Debug APK Artifact
       uses: actions/upload-artifact@v4
