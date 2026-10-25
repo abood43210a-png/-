@@ -23,7 +23,7 @@ import java.io.*
 import java.text.DateFormat
 import java.util.*
 
-class MainActivity : Activity() {
+class MainActivity : androidx.appcompat.app.AppCompatActivity() {
     private lateinit var root: LinearLayout
     private var notes = mutableListOf<Note>()
     private var recording: MediaRecorder? = null
